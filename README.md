@@ -23,3 +23,5 @@ To create a usable version, run:
 ```
 cargo build
 ```
+
+Made with ❤️ by [@FilippoFonseca](https://www.twitter.com/FilippoFonseca).
