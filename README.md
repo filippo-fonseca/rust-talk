@@ -8,6 +8,8 @@ A terminal-based chat app built in Rust.
 
 ```
 git clone git@github.com:filippo-fonseca/rust-talk.git
+
+cd rust-talk
 ```
 
 **2. Run**
