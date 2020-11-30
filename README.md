@@ -2,7 +2,7 @@
 
 A terminal-based chat app built in Rust.
 
-Warning: This is my first project in Rust, so take it with a grain of salt. It's very basic :).
+NOTE: This is my first project in Rust, so take it with a grain of salt. It's very basic :).
 
 ## Setup
 
