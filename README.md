@@ -16,7 +16,7 @@ git clone git@github.com:filippo-fonseca/rust-talk.git
 cd rust-talk
 ```
 
-**2. Run**
+**2. Run and/or Build**
 
 To run the app, use:
 
