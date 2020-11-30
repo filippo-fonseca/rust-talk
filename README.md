@@ -1,4 +1,4 @@
-# Rust Talk
+# 🎉 Rust Talk
 
 A terminal-based chat app built in Rust.
 
