@@ -8,7 +8,7 @@ NOTE: This is my first project in Rust, so take it with a grain of salt. It's ve
 
 Make sure you have [Rust](https://www.rust-lang.org/tools/install) and its respective package manager, Cargo, installed on your local machine.
 
-**1. Clone the repo**
+**1. Clone the repo & change directories**
 
 ```
 git clone git@github.com:filippo-fonseca/rust-talk.git
