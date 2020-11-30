@@ -4,7 +4,7 @@ A terminal-based chat app built in Rust.
 
 ## Setup
 
-Make sure you have [Rust](https://www.rust-lang.org/tools/install) and its respective package manager, Cargo installed on your local machine.
+Make sure you have [Rust](https://www.rust-lang.org/tools/install) and its respective package manager, Cargo, installed on your local machine.
 
 **1. Clone the repo**
 
