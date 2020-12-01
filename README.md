@@ -1,3 +1,5 @@
+<img height="175" src="https://i.ibb.co/6m661CJ/icons8-chat.gif"/>
+
 # 🎉 Rust Talk
 
 A terminal-based chat app built in Rust.
