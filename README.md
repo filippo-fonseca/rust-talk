@@ -8,7 +8,7 @@ A terminal-based chat app built in Rust.
 
 ### Code Snapshot
 
-A preview of what's inside!
+A short preview of what's inside!
 
 ```rust
 let mut clients = vec![];
