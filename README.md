@@ -34,7 +34,7 @@ cd server
 cd client
 ```
 
-Now, in both terminal windows run the following command (make sure you run it in the terminal window assigned to the `client` first):
+Now, in both terminal windows run the following command (make sure you run it in the terminal window assigned to the `server` first, as the `client` will not be able to connect to the server unless it's up):
 
 ```
 cargo run
