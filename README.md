@@ -2,7 +2,27 @@
 
 A terminal-based chat app built in Rust.
 
-NOTE: This is my first project in Rust, so take it with a grain of salt. It's very basic :).
+**NOTE:** This is my first project in Rust, so take it with a grain of salt. It's very basic and probably full of bugs and/or sections that could be cleaned up. :).
+
+### Code Snapshot
+
+A preview of what's inside!
+
+```rust
+let mut clients = vec![];
+    let (tx, rx) = mpsc::channel::<String>();
+    loop {
+        if let Ok((mut socket, addr)) = server.accept() {
+            println!("Success! {} is connected.", addr);
+
+            let tx = tx.clone();
+            clients.push(socket.try_clone().expect("failed to clone client"));
+
+            thread::spawn(move || loop {
+                let mut buff = vec![0; MSG_SIZE];
+```
+
+See more in the [`server`](https://github.com/filippo-fonseca/rust-talk/tree/main/server) and [`client`](https://github.com/filippo-fonseca/rust-talk/tree/main/client) directories.
 
 ## Setup
 
