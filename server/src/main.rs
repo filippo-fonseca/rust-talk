@@ -18,7 +18,7 @@ fn main() {
     let (tx, rx) = mpsc::channel::<String>();
     loop {
         if let Ok((mut socket, addr)) = server.accept() {
-            println!("Client {} connected", addr);
+            println!("Success! {} is connected.", addr);
 
             let tx = tx.clone();
             clients.push(socket.try_clone().expect("failed to clone client"));
@@ -36,7 +36,7 @@ fn main() {
                     }, 
                     Err(ref err) if err.kind() == ErrorKind::WouldBlock => (),
                     Err(_) => {
-                        println!("closing connection with: {}", addr);
+                        println!("Closing the connection with: {}", addr);
                         break;
                     }
                 }
